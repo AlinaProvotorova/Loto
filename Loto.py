@@ -111,7 +111,7 @@ def main():
         bingo_balls = PlayBalls()
         bingo_balls.play()
     except TypeError:
-        print('Игра окончена!')
+        print('Игра окончена!!')
 
 
 if __name__ == '__main__':
