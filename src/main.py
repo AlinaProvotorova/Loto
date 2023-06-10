@@ -45,7 +45,7 @@ class LotoData:
     balls_float_layout = FloatLayout(
         size_hint=(None, None)
     )
-    bingo_balls = sample(range(1, 91), 90)
+    bingo_balls = sample(range(1, 91), 70)
     bingo_balls.insert(0, '')
     ball_labels = []
     ball_nums = []
